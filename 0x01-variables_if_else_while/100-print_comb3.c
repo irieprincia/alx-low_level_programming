@@ -27,16 +27,11 @@ if (c < i)
 
 {
 
-																putchar(c);
-
-																putchar(i);
-
-																if ((c != '8') || (c == '8' && i != '9'))
-
-																{
-																putchar(',');
-																																putchar(' ');
-																																}
+putchar(c);
+putchar(i);
+if ((c != '8') || (c == '8' && i != '9'))
+{																putchar(',');															putchar(' ');															
+}
 
 																}
 
@@ -51,3 +46,4 @@ return (0);
 
 }
  
+
