@@ -29,30 +29,25 @@ for (i = '0'; i <= '9'; i++)
 
 																putchar(c);
 
-																			putchar(i);
+																putchar(i);
 
 
+																if ((c != '9') || (c == '9' && i != '9'))
 
-																						if ((c != '9') || (c == '9' && i != '9'))
+																{
 
-																										{
+																putchar(',');
 
-																															putchar(',');
-
-																																			putchar(' ');
-
-																																						}
-
-																								}
-
-										}
-
-
-
-					putchar('\n');
-
-
-
-						return (0);
-
+																																putchar(' ');
+																																}
+																}
 }
+
+
+putchar('\n');
+
+
+
+return (0);
+}
+
