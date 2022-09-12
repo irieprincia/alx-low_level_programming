@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-
-
 /**
 *main - Prints the numbers from 00 to 99
 *
@@ -50,7 +48,6 @@ if (c < i)
 }
 
 putchar('\n');
-
 
 
 return (0);
