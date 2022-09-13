@@ -11,43 +11,53 @@ int main(void)
 
 {
 
-int c, i;
+int c, i, k, j;
 
 
-
-c = i = '0';
-
-
-
-for (c = '0'; c <= '9'; c++)
+for (c = 48; c <= 57; c++)
 
 {
 
-for (i = '0'; i <= '9'; i++)
+for (i = 48; i <= 57; i++)
 
 {
 
-																putchar(c);
+for (k = 48; k <= 57; k++)
 
-																putchar(i);
+																	{
 
+																	for (j = 48; j <= 57; j++)
+																	{
 
-																if ((c != '9') || (c == '9' && i != '9'))
+																	if (((k + j) > (c + i) &&  k >= c) || c < k)
 
-																{
+																																		{
+																																		putchar(c);
 
-																putchar(',');
+																	putchar(i);
+																																		putchar(' ');																																	putchar(k);
+																																																			putchar(j);
+																																																																				if (c + i + k + j == 227 && c == 57)
 
-																																putchar(' ');
-																																}
-																}
+																																																			{
+																																																			break;
+																																																			}
+																																																			else
+																																																																				{																																		putchar(',');
+																																		putchar(' ');																																																																																				}
+																																																			}
+
+																																		}
+																	}
 }
+}
+
 
 
 putchar('\n');
 
 
-
 return (0);
 }
+
 
