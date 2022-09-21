@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
 * _islower - Checks for lowercase character
@@ -20,3 +20,4 @@ return (1);
 return (0);
 
 }
+
