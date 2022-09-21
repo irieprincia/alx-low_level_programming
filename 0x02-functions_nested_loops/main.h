@@ -1,5 +1,5 @@
-#ifndef main.h
-#define main.h
+#ifndef 
+#define
 
 int _putchar(char);
 void print_alphabet(void);
@@ -17,4 +17,3 @@ void print_times_table(int n);
 void num(int r, int n);
 
 #endif
-
