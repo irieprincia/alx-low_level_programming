@@ -8,52 +8,37 @@
 * Return: void
 */
 
-void rev_string(char *s)
+void puts2(char *str)
 
 {
 
-int i, c, k;
+int i;
 
-char *a, aux;
-
-
-a = s;
+int j = 0;
 
 
-
-while (s[c] != '\0')
+while (str[j] != '\0')
 
 {
 
-c++;
+j++;
 
 }
 
 
 
-for (k = 1; k < c; k++)
+for (i = 0; i < j; i += 2)
 
 {
 
-a++;
+_putchar(str[i]);
 
 }
 
 
 
-for (i = 0; i < (c / 2); i++)
+_putchar('\n');
 
-{
-
-aux = s[i];
-
-s[i] = *a;
-
-															
-*a = aux;
-															
-a--;
-															}
 }
 
 
