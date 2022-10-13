@@ -20,8 +20,9 @@ while (src[b])
 
 b++;
 
-
+}
 while (a < n && src[a])
+
 
 {
 
